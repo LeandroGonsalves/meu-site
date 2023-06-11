@@ -83,6 +83,24 @@ nav > a:hover {
     color: var(--cor5);
 }
 
+div.quadrado {
+    display: inline-block;
+    background-position: center;
+}
+
+div#q1 {
+    width: 80%;
+    height: 10px;
+
+}
+
+div#q2 {
+    background-image: url('img/formatura.png');
+    background-repeat: no-repeat;
+    width: 18%;
+    height: 200px;
+}
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -166,10 +184,6 @@ aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     column-span: 2;
-}
-
-div {
-    font-size: 10px;
 }
 
 footer {
