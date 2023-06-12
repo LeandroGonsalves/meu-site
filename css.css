@@ -51,7 +51,7 @@ nav {
 nav > a {
     padding: 8px;
     padding-bottom: 0.5px;
-    border-radius: 5px;
+    border-radius: 7px;
     transition-duration: 0.75s;
 }
 
@@ -59,27 +59,33 @@ nav > a:hover {
     background-color: rgb(103, 162, 182);
 }
 
-main {
-    display:inline-flex;
-    padding-left: 200px;
-    padding-right: 200px;
+div {
+    line-height: 2em;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1.5vw;
 }
 
-.bloco1 {
-    padding-top: 30px;
-    position: relative;
+div.bloco1 {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 30vw;
 }
 
-.bloco2 {
+div.bloco2 {
     padding-top: 30px;
     padding-left: 60px;
     text-align: justify;
 }
 
-.bloco3 {
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+div#foto {
+    background-image: url(img/formatura_horizontal.png);
+    background-position: right top;
 }
 
 
