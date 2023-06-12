@@ -61,20 +61,20 @@ nav > a:hover {
 
 div {
     line-height: 2em;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 20px;
     font-size: 1.5vw;
 }
 
 div.bloco1 {
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 1em;
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 0.5em;
     padding-bottom: 1em;
     color: white;
     background-size: cover;
     background-attachment: fixed;
-    padding-right: 30vw;
+    padding-right: 50vw;
 }
 
 div.bloco2 {
@@ -84,6 +84,7 @@ div.bloco2 {
 }
 
 div#foto {
+    position: relative;
     background-image: url(img/formatura_horizontal.png);
     background-position: right top;
 }
